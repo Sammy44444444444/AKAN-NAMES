@@ -1,0 +1,140 @@
+ * {
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;
+    font-size: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: solid;
+    color: aqua;
+    background-color: darkslategrey;
+    border: 2px solid black;
+ }
+
+ h1 {
+    font-size: normal;
+    color: aqua;
+    text-align: center;
+    text-decoration: solid;
+    background-color: darkslategrey;
+    border: 12px solid black;
+ }
+
+ body{
+      background-color: darkblue;
+      color: aqua;
+      font-size: large;
+      text-align: left;
+      border: 2px solid black;
+      margin: 20px;
+      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+      text-decoration: solid;
+      box-shadow: 5px 10px;
+ }
+
+   section{
+         background-color: wheat;
+         color: darkblue;
+         font-size: normal;
+         text-align: center;
+         border: 2px solid black;
+         margin: 20px;
+         padding: 20px;
+         font-family: 'Times New Roman', Times, serif;
+         text-decoration: solid;
+         box-shadow: 5px 10px;
+   }
+
+   label{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: wheat;
+         border: 2px solid black;
+   }
+
+   input{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: wheat;
+         border: 2px solid black;
+   }
+
+   button{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: wheat;
+         border: 2px solid black;
+   }
+
+   p{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: rgb(27, 187, 77);
+         border: 2px solid black;
+   }
+
+   h2{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: red;
+         border: 2px solid black;
+   }
+
+   form{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: rgb(222, 77, 14);
+         border: 2px solid black;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+         padding: auto;
+         margin: auto;
+         box-shadow: 5px 10px;
+         width: 50%;
+         height: auto;
+         margin-left: 25%;
+         margin-bottom: auto;
+         margin-top: auto;
+         padding-bottom: 20px;
+         padding-top: 20px;
+         border-radius: 10px;
+
+   }
+
+   select{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: wheat;
+         border: 2px solid black;
+   }
+
+   #result{
+         font-size: large;
+         color: darkblue;
+         text-align: center;
+         text-decoration: solid;
+         background-color: rgb(27, 187, 77);
+         border: 2px solid black;
+         padding: 10px;
+         margin-top: 20px;
+         border-radius: 10px;
+   }
+
