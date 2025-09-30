@@ -38,7 +38,12 @@
     let maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     let femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
     const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-    let akanName = gender === "male" ? maleNames[d] : femaleNames[d];
+    let akanName;
+    if (gender === "male") {
+        akanName = maleNames[d];
+    } else if (gender === "female") {
+        akanName = femaleNames[d];
+    }
 
     result.innerHTML = `You were born on <b>${daysOfWeek[d]}</b>.<br>
 Your Akan name is <b>${akanName}</b>`;
